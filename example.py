@@ -1,8 +1,3 @@
-# 日内回转交易(股票)
-基于股票日内偏离度回归的日内回转策略
-
-## 源码
-```python
 # coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
 try:
@@ -110,7 +105,3 @@ if __name__ == '__main__':
         backtest_initial_cash=2000000,
         backtest_commission_ratio=0.0001,
         backtest_slippage_ratio=0.0001)
-```
-
-## 绩效
-![绩效](attach.png)
